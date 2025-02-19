@@ -1,7 +1,7 @@
 let mImg;
 let mOllama;
 
-let API_URL = "https://allergy-work-partners-section.trycloudflare.com";
+let API_URL = "https://alphabetical-mature-pic-randy.trycloudflare.com";
 
 async function preload() {
   mImg = loadImage("../../imgs/GDTM.jpg");
