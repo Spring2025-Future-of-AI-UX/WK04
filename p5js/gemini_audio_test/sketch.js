@@ -45,7 +45,7 @@ function setup() {
   textSize(20);
 
   // You can hardcode the audio file path here
-  let audioFilePath = "../../audio/accent.flac";  // Update with your file path
+  let audioFilePath = "../../audio/my_recording.mp3";  // Update with your file path
   
   // Call the transcription function from gemini.js
   transcriptionResult = "Transcribing audio...";
@@ -57,5 +57,5 @@ function setup() {
 // Draw the transcription result on the canvas
 function draw() {
   background(220);
-  text(transcriptionResult, 0, height/2, width/2, 200);
+  text(transcriptionResult, 10, 50, windowWidth, windowHeight);
 }
